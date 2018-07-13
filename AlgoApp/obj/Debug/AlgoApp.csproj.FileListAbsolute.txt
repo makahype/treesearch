@@ -1,0 +1,7 @@
+C:\Users\Michael\Desktop\code\console_algo\AlgoApp\AlgoApp\bin\Debug\AlgoApp.exe.config
+C:\Users\Michael\Desktop\code\console_algo\AlgoApp\AlgoApp\bin\Debug\AlgoApp.exe
+C:\Users\Michael\Desktop\code\console_algo\AlgoApp\AlgoApp\bin\Debug\AlgoApp.pdb
+C:\Users\Michael\Desktop\code\console_algo\AlgoApp\AlgoApp\obj\Debug\AlgoApp.csprojAssemblyReference.cache
+C:\Users\Michael\Desktop\code\console_algo\AlgoApp\AlgoApp\obj\Debug\AlgoApp.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Desktop\code\console_algo\AlgoApp\AlgoApp\obj\Debug\AlgoApp.exe
+C:\Users\Michael\Desktop\code\console_algo\AlgoApp\AlgoApp\obj\Debug\AlgoApp.pdb
