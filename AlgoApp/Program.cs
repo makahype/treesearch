@@ -11,33 +11,19 @@ namespace AlgoApp
         static void Main(string[] args)
         {
 
-            List<string> l1 = new List<string>();
-            l1.Add("hello");
-            Node test = new Node(12, l1);
-            test.Add(10, "hey");
-            test.Add(20, "yo");
-            test.Add(2, "yea");
-            test.Add(19, "ok");
-            test.Add(5, "test");
+            Console.WriteLine("TreeBased v1.0 - beta");
+            Console.WriteLine("input a command: create, add, print, end");
 
+            string input = Console.ReadLine();
+            CLI inter_handler = new CLI();
+            Node curr = null;
 
-            Console.WriteLine(test.Print());
+            while (input != "end") {
 
+                curr = inter_handler.RouteCommand(input, curr);                
+                input = Console.ReadLine();
+                
 
-            Console.WriteLine("Hello World!");
-            string user_char;
-            char ch;
-
-            // Keep the console window open in debug mode.
-            string[] lines = { "First line", "Second line", "Third line" };
-
-            foreach (string line in lines) {
-
-                Console.WriteLine(line);
-                Console.WriteLine("Write a line:");
-
-                user_char = Console.ReadLine();
-                Console.WriteLine("You pressed '{0}'", user_char);
             }
 
         }
