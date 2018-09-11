@@ -15,6 +15,9 @@ namespace AlgoApp
         private Node right;
 
 
+        string node_delim = "btnd::";
+        string data_itm_delim = "btitm::";
+
 
         public Node(int key, List<string> items) {
             this.key = key;
@@ -107,6 +110,29 @@ namespace AlgoApp
 
             return res;
         }
+
+        public string PrintFull()
+        {
+
+            string res = this.node_delim + this.key + Environment.NewLine;
+            //append list of data, each item is a line
+            foreach (string item in this.data) {
+                res = res + this.data_itm_delim + item + Environment.NewLine;
+            }
+
+            if (this.left != null)
+            {
+                res = res + this.left.PrintFull();
+            }
+
+            if (this.right != null)
+            {
+                res = res + this.right.PrintFull();
+            }
+
+            return res;
+        }
+
 
         public List<string> GetData() {
             return this.data;
